@@ -1,0 +1,238 @@
+header {
+    background-color: #21b57214;
+    }
+    header .container .navbar img {
+      width: 200px; }
+    header .container .navbar .nav-item .nav-link {
+      color: black;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 10px 30px;
+      border-radius: 30px;
+      transition-duration: 1s;
+    }
+      header .container .navbar .nav-item .nav-link:hover {
+        background-color: #21B573;
+        color: white; }
+
+        header .container .navbar .nav-item:last-child .nav-link {
+            background-color: #21B573;
+            color: white; }
+
+    header .banner-content {
+      padding: 50px 0; }
+      header .banner-content .container .row .col-6 h4 {
+        color: red;
+        font-size: 20px; }
+      header .banner-content .container .row .col-6 h1 {
+        font-weight: 700;
+        font-size: 70px; }
+  
+        header .banner-content .container .row .col-6 p {
+          font-size: 17px;
+        line-height: 2; }
+        header .banner-content .container .row .col-6 h1 span {
+          color: green; }
+      header .banner-content .container .row .col-6 a {
+        padding: 10px 30px;
+        background-color: green;
+        color: #ffffff;
+        border-radius: 30px;
+        border: 1px solid green;
+        transition: all 1s ease;
+        font-weight: 700; }
+        header .banner-content .container .row .col-6 a:hover {
+          background-color: rgba(0, 128, 0, 0);
+          color: green; }
+  
+  .card-section{
+      padding: 40px 0;
+  }
+  
+  .card-section .container {}
+  
+  .card-section .container .row {}
+  
+  .card-section .container .row .card {
+      padding: 20px;
+      text-align: center;
+      background-color: #00800005;
+      margin: 0 10px;
+      border: none;
+      transition: all 0.8s ease;
+  }
+  
+  .card-section .container .row .card:hover {
+    background-color: #00800000;
+    box-shadow: 0px 0px 146px 0px #0000000f;
+    cursor: pointer;
+    }
+  
+  .card-section .container .row .card .card-img-top{
+      width: 60px;
+      height: 70px;
+      margin: auto;
+  }
+  
+  .card-section .container .row .card .card-body {
+      margin-top: 20px;
+  }
+  
+  .card-section .container .row .card .card-body h5{
+      font-size: 20px;
+      font-weight: 700;
+      color:#413960;
+  }
+  
+  .card-section .container .row .card .card-body p{
+      color: #3f483f;
+  }
+  /*# sourceMappingURL=style.css.map */
+  
+  .image-section{
+      padding: 40px 0;
+  }
+  
+  .image-section .container{}
+  
+  .image-section .container .course-heading{
+      text-align: center;
+      padding: 53px 0;
+      color: #413960;
+      font-weight: 700;
+      font-size: 47px;
+  }
+  
+  .image-section .container .row{}
+  
+  .image-section .container .row .card-custom{
+      padding: 20px;
+      border-radius: 10px;
+      margin: 0 20px;
+      border: none;
+      box-shadow: 0 0 134px 0px #cecccc26;
+  }
+  
+  .image-section .container .row .card-custom .card-img-top{}
+  
+  .image-section .container .row .card-custom .card-body{}
+  
+  .image-section .container .row .card-custom .card-body h5{
+      color: #413960;
+      font-size: 25px;
+      font-weight: 700;
+  }
+  
+  .image-section .container .row .card-custom .card-body p{
+      font-size: 19px;
+      font-weight: 400;
+  }
+  
+  .image-section .container .row .card-custom .card-body .btn{
+      background-color: #21B573;
+      border: 1px solid #21B573;
+      padding: 6px 30px;
+      font-weight: 600;
+      border-radius: 25px;
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+  
+  }
+  
+  .image-section .container .row .card-custom .card-body .btn:hover{
+    background-color: #21b57200;
+    color: #21B573;
+   
+  }
+  
+  
+  .image-section .container .row .card-custom .card-body ul {
+      margin-top: 21px;
+  }
+  
+  .image-section .container .row .card-custom .card-body ul li {
+      height: 20px;
+  }
+  
+  .image-section .container .row .card-custom .card-body ul li span{
+      font-size: 16px;
+      font-weight: 600;
+  }
+  
+  .image-section .container .row .card-custom .card-body ul li img{
+      width: 20px;
+  }
+  
+  
+  
+  .testimonial{
+      padding: 40px 0;
+  }
+  
+  .testimonial h1{
+      text-align: center;
+      /* margin-bottom: 40px; */
+      /* text-transform: uppercase; */
+      font-size: 34px;
+      font-weight: 700;
+      color: #413960;
+  }
+  
+  .testimonial .row{
+      align-items: center;
+      padding: 40px 0;
+  }
+  
+  .testimonial .col-3 {}
+  
+  .testimonial .col-3 img{
+      width: 150px;
+  }
+  
+  .testimonial .col-6{}
+  
+  .testimonial .col-6 p{
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: 400;
+  }
+  
+  
+  footer{
+      background-color: #282531;
+      color: #fff;
+      padding: 40px 0;
+  }
+  
+  footer .col-6{
+      text-align: center;
+  }
+  
+  footer .col-6 p{
+      font-size: 15px;
+  }
+  
+  footer .col-2{}
+  
+  footer .col-2 ul{}
+  
+  footer .col-2 ul li {
+  list-style-type: none;
+  }
+  
+  footer .col-2 ul li:first-child a {
+    font-weight: 700;
+}
+  footer .col-2 ul li a{
+  color: #fff;
+  display: block;
+  padding: 3px 0;
+  }
+  
+  footer .container h2{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 50px;
+}
